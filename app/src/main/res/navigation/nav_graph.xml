@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/firstFragment">
+
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="kg.geektech.noactivity.ui.fragments.first.FirstFragment"
+        android:label="FirstFragment"
+        tools:layout="@layout/first_fragment" />
+
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="kg.geektech.noactivity.ui.fragments.second.SecondFragment"
+        android:label="SecondFragment"
+        tools:layout="@layout/second_fragment" />
+
+    <fragment
+        android:id="@+id/thirdFragment"
+        android:name="kg.geektech.noactivity.ui.fragments.third.ThirdFragment"
+        android:label="ThirdFragment"
+        tools:layout="@layout/third_fragment" />
+
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="kg.geektech.noactivity.ui.fragments.TaskFragment"
+        android:label="TaskFragment"
+        tools:layout="@layout/task_fragment" />
+
+    <fragment
+        android:id="@+id/boardFragment"
+        android:name="kg.geektech.noactivity.ui.fragments.board.BoardFragment"
+        android:label="BoardFragment"
+        tools:layout="@layout/board_fragment" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="kg.geektech.noactivity.ui.fragments.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+
+
+</navigation>

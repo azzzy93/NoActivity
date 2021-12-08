@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">No Activity</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="save">Сохранить</string>
+    <string name="skip">Skip</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sign_in">Sign in</string>
+    <string name="web_client_id">812769107792-6iv59i7bc4554jb9j3gg31mdjvrfbihr.apps.googleusercontent.com</string>
+    <string name="sign_out">Sign out</string>
+</resources>
